@@ -1,0 +1,31 @@
+#program adds up the numbers in the range value 
+
+answer = 0 # declaring a variable 
+
+for i in range(10): # for loop 
+
+  print("This text is in a loop") # print statement 
+
+  answer += i # adds up the numbers in the range() 
+
+print(answer) 
+
+  
+
+def inputLoop(): # defining a function 
+
+  
+
+  value = int(input("Enter a whole number: ")) 
+
+  for j in range(value): 
+
+    print("This will print the number of times the user asked") 
+
+  
+
+inputLoop() # calling a function 
+
+inputLoop() # calls the function 2x 
+
+ 
